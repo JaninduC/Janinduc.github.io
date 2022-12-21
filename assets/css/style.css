@@ -25,14 +25,14 @@
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(240, 1%, 25%) 3%, 
-    hsl(0, 0%, 19%) 97%
+    hsla(197, 100%, 26%, 0.692) 3%, 
+    hsl(244, 100%, 9%) 97%
   );
   --bg-gradient-jet: linear-gradient(
     to bottom right, 
-    hsla(240, 1%, 18%, 0.251) 0%, 
-    hsla(240, 2%, 11%, 0) 100%
-  ), hsl(240, 2%, 13%);
+    hsla(197, 100%, 26%, 0.692) 3%, 
+    hsl(244, 100%, 9%) 97%
+  ), hsl(240, 100%, 5%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
     hsl(45, 100%, 71%) 0%, 
@@ -51,16 +51,16 @@
   --text-gradient-yellow: linear-gradient(
     to right, 
     hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hsl(35, 100%, 57%)
   );
 
   /* solid */
 
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
+  --eerie-black-1:  hsl(228, 57%, 12%);
+  --eerie-black-2: hsl(228, 50%, 10%);
+  --smoky-black: hsl(228, 100%, 6%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
@@ -459,7 +459,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background:linear-gradient( to bottom right, hsla(216, 98%, 47%, 0.438) 3%, hsl(244, 100%, 7%) 97% );
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
